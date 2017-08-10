@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'sequel', '~> 3.42'
-  gem.add_dependency 'msgpack', '~> 0.5.1'
+  gem.add_dependency 'sequel', '~> 4.42.1'
+  gem.add_dependency 'msgpack', '~> 1.1.0'
 end
